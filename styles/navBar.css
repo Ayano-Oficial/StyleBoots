@@ -1,0 +1,127 @@
+@import url('geral.css');
+
+/* Navbar*/
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 2rem;
+    
+}
+
+
+
+.mnu001 {
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #ccc;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+
+@media (max-width: 700px) {
+
+.navbar-container {
+    width: 100%;
+    height: auto;
+    background-color: #232a31;
+    padding: 10px 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.mnu001 {
+    position: initial;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: block;
+}
+
+
+.navbar-items {
+    position: initial;
+    right: 0;
+    height: auto;
+    line-height: 50px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.navbar-items a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #ccc;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+}

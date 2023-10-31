@@ -1,0 +1,159 @@
+.container-componentes {
+    display: flex;
+}
+
+.navbar-container {
+    width: 80%;
+    margin-left: 20%;
+}
+
+/*Menu vestical*/
+
+.menu-vestical {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.menu-vestical h2 {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 30px; 
+}
+
+.menu-vestical-componentes {
+    width: 100%;
+}
+
+.menu-vestical-item {
+    width: 100%;
+    min-height: 300px;
+    max-height: 500px;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    overflow: auto;
+}
+
+.menu-vestical-item li {
+    margin-bottom: 0;
+    border: 0.5px solid #ccc;
+    width: 100%;
+    transition: 0.5s;
+    overflow: auto;
+}
+
+.menu-vestical-item li:hover {
+    background-color: #ccc;
+}
+
+.menu-vestical-item li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    width: 100%;
+ 
+}
+
+/* fim do Menu vestical*/
+
+.content-conteudo {
+    width: 80%;
+    margin-left: 20%;
+    padding: 10px;
+
+}
+
+
+/*Conteudo*/
+
+.content-conteudo h1 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.container-componentes-codigos-exemplo h2 {
+    margin-left: 20px;
+    font-size: 37px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* visualizacao-dektop */
+
+.visualizacao-dektop {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+
+.visualizacao-mobile {
+    display: block;
+    width: 414px;
+    height: 896px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.visualizador-container h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+
+.SobreOCodigo {
+    font-size: 20px;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+
+/*Codigos copy*/
+
+
+.Containes-codigos {
+    width: 90%;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    overflow: auto;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.copia-codigo {
+    display: block;
+    margin: 70px auto;
+    padding: 20px;
+    border: none;
+    background: #00ffff;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.copia-codigo:hover {
+    transition: 0.5s;
+    background: #00c0ff;
+    color: aliceblue;
+    transform: scale(1.1); 
+}
+
+.divisor {
+    border: 1px solid #232a31;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
