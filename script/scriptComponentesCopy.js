@@ -137,3 +137,82 @@ btnCopiar7.addEventListener("click", function(){
     alert("Código copiado!")
 })    
 
+
+const btnCopiar8 = document.getElementById("copiarMnu008");
+
+const codigo8 = document.getElementById("codigo8")
+
+btnCopiar8.addEventListener("click", function(){
+    const range = document.createRange()
+    range.selectNode(codigo8)
+    window.getSelection().removeAllRanges()
+    window.getSelection().addRange(range)
+
+
+    document.execCommand("copy")
+
+    window.getSelection().removeAllRanges()
+
+    alert("Código copiado!")
+})    
+
+
+
+const btnCopiar9 = document.getElementById("copiarMnu009");
+
+const codigo9 = document.getElementById("codigo9")
+
+btnCopiar9.addEventListener("click", function(){
+    const range = document.createRange()
+    range.selectNode(codigo9)
+    window.getSelection().removeAllRanges()
+    window.getSelection().addRange(range)
+
+
+    document.execCommand("copy")
+
+    window.getSelection().removeAllRanges()
+
+    alert("Código copiado!")
+})    
+
+
+
+
+const btnCopiar10 = document.getElementById("copiarMnu010");
+
+const codigo10 = document.getElementById("codigo10")
+
+btnCopiar10.addEventListener("click", function(){
+    const range = document.createRange()
+    range.selectNode(codigo10)
+    window.getSelection().removeAllRanges()
+    window.getSelection().addRange(range)
+
+
+    document.execCommand("copy")
+
+    window.getSelection().removeAllRanges()
+
+    alert("Código copiado!")
+})    
+
+
+
+const btnCopiar11 = document.getElementById("copiarMnu011");
+
+const codigo11 = document.getElementById("codigo11")
+
+btnCopiar11.addEventListener("click", function(){
+    const range = document.createRange()
+    range.selectNode(codigo11)
+    window.getSelection().removeAllRanges()
+    window.getSelection().addRange(range)
+
+
+    document.execCommand("copy")
+
+    window.getSelection().removeAllRanges()
+
+    alert("Código copiado!")
+})    

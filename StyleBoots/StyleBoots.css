@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*
+
+font-family: 'Inter', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+*/
+
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
+
 /* Navbar mnu001*/
 .mnu001-container {
     width: 100%;
@@ -244,7 +259,7 @@
     
 }.tabls-cor {
     background-color: rgb(191, 81, 81);
-    color: #232a31;
+    color: #ffffff;
     font-weight: bold;
 } @media screen and (max-width: 600px) {
     #minha-tabls001 {
