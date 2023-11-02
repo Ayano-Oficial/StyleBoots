@@ -24,6 +24,7 @@ body {
   text-shadow: #000 2px 2px 3px;
   font-size: 25px;
   font-weight: bold;
+ 
 }
 
 
@@ -41,7 +42,8 @@ body {
 }
 
 .container-personagem-apoia img{
-      width: 300px;
+      width: 750px;
+      margin-top: 50px;
 }
 
 .dialogo-personagem {
@@ -52,4 +54,92 @@ body {
   margin-top: 20px;
   background-color: #fff;
   padding: 20px;
+}
+
+
+.ajuda {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card-ajuda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  min-width: 250px;
+  min-height: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: #7d7dee;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.card-ajuda h1 {
+  color: white;
+}
+
+.card-ajuda p {
+  font-size: 23px;
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+ 
+  .banns001-container  {
+    width: 100%;
+  }
+
+
+
+  .container-personagem-apoia {
+    display: flex;
+    position: relative;
+    min-width: 200px;
+    max-width: 550px;
+    margin: auto;
+  
+  }
+  
+  
+  
+
+.container-personagem-apoia img{
+  width: 80%;
+}
+
+
+.banns001-container h1 {
+  color: #fff;
+  font-size: 27px;
+  padding: 20px 10px;
+  text-align: center;
+  text-shadow: #000 2px 2px 3px;
+  font-weight: bold;
+}
+
+.banns001-container p {
+  font-size: 17px;
+  width: 90%;
+}
+
+
+.ajuda {
+  flex-direction: column ;
+}
+
 }

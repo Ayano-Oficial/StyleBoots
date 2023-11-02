@@ -55,3 +55,28 @@
     font-size: 23px;
     margin-left: 27px;
 }
+
+
+@media screen and (max-width: 670px) {
+    .container-bemvindo p {
+        font-size: 27px;
+        width: 80%;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: #000 2px 2px 3px ;
+    }
+
+
+    .container-d{
+        margin-top: 70px;
+        padding: 10px;
+        margin-bottom: 60px;
+    }
+    
+
+    .container-d p {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    
+}

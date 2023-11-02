@@ -1,5 +1,5 @@
 @import url('../StyleBoots/StyleBoots.css');
-
+@import url('geral.css');
 
 * {
     margin: 0;
