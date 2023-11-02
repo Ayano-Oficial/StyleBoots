@@ -1,3 +1,5 @@
+/*Versão do StyleBoots 1.1.3*/
+
 /*Tabela tabls001 */
 var tabls001Cor = document.getElementById("minha-tabls001");
 var linhaTabls001 = tabls001Cor.getElementsByTagName("td");
