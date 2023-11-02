@@ -1,0 +1,55 @@
+@import url('geral.css');
+@import url('navBar.css');
+
+
+body {
+  background-color: #a5a5ff;
+}
+
+.banns001-container {
+  background-color: #7d7dee;
+}
+
+.banns001-container h1 {
+  color: #fff;
+  font-size: 52px;
+  padding: 20px 10px;
+  text-align: center;
+  text-shadow: #000 2px 2px 3px;
+  font-weight: bold;
+}
+
+
+.banns001-container p {
+  text-shadow: #000 2px 2px 3px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.container-personagem {
+  width: 100%;
+}
+
+.container-personagem-apoia {
+  display: flex;
+  position: relative;
+  min-width: 500px;
+  max-width: 550px;
+  margin: auto;
+
+}
+
+.container-personagem-apoia img{
+      width: 300px;
+}
+
+.dialogo-personagem {
+  position: absolute;
+  right: 0;
+  border-radius: 20px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}

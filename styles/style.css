@@ -9,6 +9,11 @@ p {
     color: #70747a;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
 /* main banner */
 
 
@@ -160,4 +165,15 @@ footer {
     padding: 20px;
     color: white;
     background: #232a31;
+}
+
+
+@media screen and (max-width: 650px) {
+    .main-banner p {
+        width: 80%;
+    }
+
+    .maquina-de-escreve-container {
+        width: 80%;
+    }
 }

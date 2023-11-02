@@ -1,8 +1,16 @@
 .container-componentes {
     display: flex;
+  
 }
 
-.navbar-container {
+::-webkit-scrollbar {
+    width: 0;
+}
+
+
+
+
+#header {
     width: 80%;
     margin-left: 20%;
 }
@@ -157,4 +165,58 @@
     border: 1px solid #232a31;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+    #header {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+
+
+
+
+
+
+    .container-componentes {
+        display: block;
+    }
+    
+
+    .menu-vestical {
+        display: none;
+    }
+    
+    .content-conteudo {
+        width: 100%;
+        margin-left: initial;
+        margin: 0;
+        padding: 0;
+    
+    }
+
+    .visualizacao-mobile {
+        width: 310px;
+    }
+
+
+    .content-conteudo h1 {
+        font-size: 26px;
+    }
+
+    .container-componentes-codigos-exemplo h2 {
+        font-size: 24px;
+    }
+    
+    .divisor {
+        display: block;
+        border: 1px solid #232a31;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
 }
