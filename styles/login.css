@@ -1,0 +1,15 @@
+.container-login {
+    height: 100vh;
+}
+
+.fundo {
+    background-image: url('../assets/imagens/fundoMar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tedls001-container {
+    background-color: rgba(0, 0, 0, 0.322);
+}

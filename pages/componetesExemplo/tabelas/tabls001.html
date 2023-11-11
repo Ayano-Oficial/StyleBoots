@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../StyleBoots/StyleBoots.css">
-    <script defer src="../../../StyleBoots/StyleBootsScript/StyleBoots.js"></script>
     <title>tabls001</title>
 </head>
 <body>
@@ -59,5 +58,17 @@
             </tbody>
         </table>
     </div>
+
+    <script>
+        var tabls001Cor = document.getElementById("minha-tabls001");
+var linhaTabls001 = tabls001Cor.getElementsByTagName("td");
+
+for (var i = 0; i < linhaTabls001.length; i++) {
+    if(i % 2 === 1) {
+        linhaTabls001[i].classList.add('tabls-cor');
+    }
+};
+
+    </script>
 </body>
 </html>
