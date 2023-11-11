@@ -11,6 +11,15 @@ for (var i = 0; i < linhaTabls001.length; i++) {
 };
 
 /*Fim Tabela tabls001 */
-
 /*######################################## */
+/*Tabela tabls002 */
+var tabls001Cor = document.getElementById("minha-tabls002");
+var linhaTabls001 = tabls001Cor.getElementsByTagName("td");
 
+for (var i = 0; i < linhaTabls001.length; i++) {
+    if(i % 2 === 1) {
+        linhaTabls001[i].classList.add('tabls-cor2');
+    }
+};
+/*Fim Tabela tabls002 */
+/*######################################## */

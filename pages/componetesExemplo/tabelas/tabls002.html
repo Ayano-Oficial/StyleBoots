@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../StyleBoots/StyleBoots.css">
+    <script defer src="./../../../StyleBoots/StyleBootsScript/StyleBoots.js"></script>
     <title>tabls002</title>
     <style>
 
@@ -14,46 +15,6 @@
         }
 
 
-        .tabls002-container {
-            height: 600px;
-            overflow: auto;
-            margin: auto;
-        }
-
-        .tabls002-container  .minha-tabls002{
-            box-shadow: 1px 1px 9px rgba(0, 255, 255, 0.534);
-            padding: 0;
-            
-        }
-        
-        thead {
-            background-color: rgba(0, 140, 255, 0.425);
-            padding: 10px;
-            
-        }
-
-        thead th {
-            padding: 15px 20px;
-            color: white;
-            border-radius: 10px;
-            
-        }
-
-        tbody {
-            background-color: rgba(0, 255, 255, 0.103);
-            padding: 10px;
-        }
-
-        tbody td {
-            padding: 15px 20px;
-            border-bottom: 1px solid rgba(0, 255, 255, 0.61);
-            font-weight: bold;
-            border-radius: 10px;
-        }
-
-        .tabls-cor2 {
-            background-color: rgba(0, 45, 129, 0.24);
-        }
     </style>
 </head>
 <body>
@@ -87,16 +48,5 @@
     </div>
 
 
-    <script>
-        var tabls001Cor = document.getElementById("minha-tabls002");
-var linhaTabls001 = tabls001Cor.getElementsByTagName("td");
-
-for (var i = 0; i < linhaTabls001.length; i++) {
-    if(i % 2 === 1) {
-        linhaTabls001[i].classList.add('tabls-cor2');
-    }
-};
-
-    </script>
 </body>
 </html>
