@@ -17,12 +17,18 @@ p {
 
 /* main banner */
 
-
-.main-banner {
+body{
     animation: gradiendanimado 10s ease infinite;
     background: linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab) no-repeat;
-    padding: 10rem 0;
     background-size: 300% 300%;
+}
+
+.main-banner {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 
@@ -41,19 +47,17 @@ p {
 }
 
 
-.main-banner .maquina-de-escreve,
-.main-banner p {
+.main-banner .maquina-de-escreve-container  .maquina-de-escreve
+ {
     color: #fff;
     text-align: center;
     font-weight: bold;
     text-shadow: #000 2px 2px 3px ;
+    margin: auto;
     
 }
 
-.main-banner p {
-    width: 550px;
-    margin: auto;
-}
+
 
 .maquina-de-escreve {
     overflow: hidden;
@@ -66,14 +70,36 @@ p {
 
 
 .maquina-de-escreve-container {
-    width: 280px;
-    margin: auto;
+    width: 50%;
+    padding: 20px;
+   
+}
+
+.main-banner .maquina-de-escreve-container  p  {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 2px 2px 3px ;
 }
 
 
+.container-banner-logo {
+    width: 50%;
+}
+
+.container-banner-logo img {
+    display: block;
+    margin: auto;
+    border-radius: 40px;
+    width: 300px;
+}
 
 
-
+.btns004 {
+    display: block;
+    margin: 20px auto;
+}
 
 @keyframes maquina-de-escreve {
     0% {
@@ -88,91 +114,37 @@ p {
 .main-banner h1 {
     font-size: 54px;
 }
-
-.main-banner p {
-    font-size: 24px;
+.main-banner .maquina-de-escreve-container p {
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 /* section-componetes */
 
-.section-componetes {
-    width: 100%;
-    padding: 10px;
-    min-height: 300px;
-    margin-top: 50px;
-    
-}
 
-.componentes {
-    width: 95%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-
-}
-
-
-.carde-container {
-    position: relative;
-    min-width: 200px;
-    max-width: 300px;
-    min-height: 300px;
-    max-height: 500px;
-    background: #232a31;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.carde-container h1 {
-    color: #fff;
-    font-size: 32px;
-    padding: 20px 10px;
-    text-align: center;
-}
-
-.carde-container p {
-    color: #fff;
-    font-size: 23px;
-    margin-top: 30px;
-    text-align: center;
-}
-
-
-.carde-container div {
-    margin: auto;
-    width: 50%;
-    background: rgb(77, 23, 23);
-}
-
-.carde-container > div > a {
-    color: white;
-    text-decoration: none;
-    padding: 25px 20px;
-    background-color: #2cc76a;
-    border-radius: 5px;
-    display: inline-block;
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    margin-bottom: 10px;
-    transition: all 0.3s ease;
-    
-}
-
-.carde-container > div > a:hover  {
-    transform: translateY(-10px);
-}
-
-/* footer */
 
 
 
 @media screen and (max-width: 650px) {
-    .main-banner p {
-        width: 80%;
+    .main-banner {
+        flex-direction: column;
+        align-items: normal;
     }
 
     .maquina-de-escreve-container {
-        width: 80%;
+        width: 100%;
+        text-align: center;
     }
+
+
+ 
+    .main-banner .maquina-de-escreve-container p {
+        font-size: 15px;
+        margin: 40px auto;
+    }
+
+    .container-banner-logo {
+        width: 100%;
+    }
+    
 }

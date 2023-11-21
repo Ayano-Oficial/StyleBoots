@@ -1,0 +1,22 @@
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.container-landingPage  {
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inframeLanding {
+    width: 80%;
+    height: 700px;
+}
+
+.botao-adquiri {
+    width: 200px;
+    margin-top: 30px;
+}

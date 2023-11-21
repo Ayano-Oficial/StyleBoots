@@ -13,6 +13,8 @@
 #header {
     width: 80%;
     margin-left: 20%;
+    position: fixed;
+    top: 0;
 }
 
 /*Menu vestical*/
@@ -74,8 +76,7 @@
 .content-conteudo {
     width: 80%;
     margin-left: 20%;
-    padding: 10px;
-
+    padding: 20px;
 }
 
 
@@ -84,7 +85,7 @@
 .content-conteudo h1 {
     text-align: center;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 

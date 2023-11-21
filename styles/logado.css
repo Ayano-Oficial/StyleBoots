@@ -1,0 +1,9 @@
+
+.textarea {
+    max-width: 240px;
+    max-height: 140px;
+    min-width: 200px;
+    min-height: 100px;
+}
+
+

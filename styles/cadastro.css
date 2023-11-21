@@ -1,9 +1,15 @@
+body {
+    height: 100vh;
+    position: relative;
+}
+
 .fundo {
     background-image: url('../assets/imagens/fundoMar.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .teldcs001-container {
@@ -13,4 +19,10 @@
 .teldcs001-link {
     font-weight: bold;
     color: white;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }

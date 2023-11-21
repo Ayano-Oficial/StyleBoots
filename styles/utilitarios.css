@@ -1,0 +1,97 @@
+.container-utilitarios {
+    flex-direction: column;
+}
+
+
+.menu-vestical {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.menu-vestical h2 {
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 30px; 
+}
+
+.menu-vestical-componentes {
+    width: 100%;
+}
+
+.menu-vestical-item {
+    width: 100%;
+    min-height: 300px;
+    max-height: 500px;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    overflow: auto;
+}
+
+.menu-vestical-item li {
+    margin-bottom: 0;
+    border: 0.5px solid #ccc;
+    width: 100%;
+    transition: 0.5s;
+    overflow: auto;
+}
+
+.menu-vestical-item li:hover {
+    background-color: #ccc;
+}
+
+.menu-vestical-item li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    width: 100%;
+ 
+}
+
+#header {
+    width: 80%;
+    margin-left: 20%;
+}
+
+
+.conteudo-utilitarios{
+    width: 80%;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.imagem-edito {
+    background-image: url('../assets/imagens/edito.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+    #header {
+        width: 100%;
+        margin-left: 0;
+    }
+    .menu-vestical {
+        display: none;
+    }
+
+    .conteudo-utilitarios {
+        width: 100%;
+        margin-left: initial;
+        margin: 0;
+        padding: 0;
+    }
+}

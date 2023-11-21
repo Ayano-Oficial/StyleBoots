@@ -3,60 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
-    <title>StyleBoots</title>
-
-    <!--Estilos do site StyleBoots-->
-    <link rel="stylesheet" href="styles/style.css">
-
-    <script defer src="script/scriptMenu.js"></script>
-</head>
-<body id="body" class="Scroll-on">
     
-    <header id="header">
-        <a href="" id="logo"><img src="assets/imagens/logo.png" alt=""></a>
+    <link rel="stylesheet" href="styles/navBar.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="script/scriptMenu.js"></script>
+    <title>Home | StyleBoost</title>
+</head>
+<body id="body" class="Scroll-on">    
+        <header id="header">
+            <a href="" id="logo"><img src="assets/imagens/logo.png" alt=""></a>
+    
+            <nav id="nav">
+                <button id="btn-mobile" onclick="Mnuparece()"><img id="btn-mobile-img" src="https://raw.githubusercontent.com/Ayano-Oficial/StyleBoots/a7fec9d2617be69eaea021dafcaf7d13f5d145ff/assets/imagens/menu.svg" alt=""></button>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="documentacao.html">Documentação</a></li>
+                    <li><a href="apoia.html">Apoia</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <nav id="nav">
-            <button id="btn-mobile" onclick="Mnuparece()"><img id="btn-mobile-img" src="https://raw.githubusercontent.com/Ayano-Oficial/StyleBoots/a7fec9d2617be69eaea021dafcaf7d13f5d145ff/assets/imagens/menu.svg" alt=""></button>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="documentacao.html">Documentação</a></li>
-                <li><a href="apoia.html">Apoia</a></li>
-            </ul>
-        </nav>
-    </header>
-   
-    <main>
-        <div class="main-banner">
+        <main class="main-banner">
             <div class="maquina-de-escreve-container">
-                <h1 class="maquina-de-escreve">StyleBoots</h1>
+                <h1 class="maquina-de-escreve">StyleBoost</h1>
+                <p>Seja bem-vindo ao StyleBoost CSS, onde a criatividade se encontra com a elegância para criar designs incriveis. Aqui, cada linha de código é uma oportunidade de elevar o visual e a usabilidade do seu projeto. <br> Prepare-se para elevar o nivel do seu estilo com o StyleBoost CSS</p>
+
+                <a class="btns004" href="pages/componentes.html">Ver componentes</a>
+                <a class="btns004" href="pages/utilitarios.html">Ver utilitários (Beta)</a>
             </div>
-
             
-            <p>Desvende a arte do design com StyleBoots, onde cada linha de código é uma técnica refinada de Jujutsu Kaise.</p>
-            
-           
-        </div>
+           <div class="container-banner-logo">
+            <img src="assets/imagens/logostyleboots.jpg" alt="">
+           </div>
+        </main>
 
-        <section class="section-componetes">
-            <div class="componentes">
-                <div class="carde-container">
-                    <h1>Componentes</h1>
-                    <p>Componentes para seu Projeto Com StyleBoots</p>
-
-                    <div>
-                        <a href="./pages/componentes.html">Componentes</a>
-                    </div>
-                    
-                </div>
-
-            </div>
-           
-        </section>
-     </main>
-
-<footer>
-    <span>StyleBoots</span>
-</footer>
+        <footer>
+            <span>StyleBoost</span>
+        </footer>
 </body>
 </html>

@@ -264,3 +264,19 @@ function copiarTexto016() {
             });
     }
 }
+
+function copiarTexto017() {
+    var codigos = document.getElementsByClassName("codigo017");
+    if (codigos.length > 0) {
+        var codigo = codigos[0];
+        var texto = codigo.innerText;
+
+        navigator.clipboard.writeText(texto)
+            .then(function() {
+                Swal.fire('Copiado Com Sucesso');
+            })
+            .catch(function(err) {
+                alert("Erro ao copiar o texto: " + err);
+            });
+    }
+}
