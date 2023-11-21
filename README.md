@@ -1,2 +1,2 @@
-# StyleBoots
-<h1>StyleBoots</h1>
+# StyleBoost
+<h1>StyleBoost</h1>
