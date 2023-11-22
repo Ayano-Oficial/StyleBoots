@@ -14,13 +14,16 @@ p {
 }
 
 
-
 /* main banner */
 
-body{
+body {
     animation: gradiendanimado 10s ease infinite;
-    background: linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab) no-repeat;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
     background-size: 300% 300%;
+}
+
+.container-index {
+    height: 100vh;
 }
 
 .main-banner {
@@ -31,58 +34,44 @@ body{
     gap: 10px;
 }
 
-
 @keyframes gradiendanimado {
     0% {
         background-position: 0% 50%;
     }
-
     50% {
         background-position: 100% 50%;
     }
-
     100% {
         background-position: 0% 50%;
     }
 }
 
-
-.main-banner .maquina-de-escreve-container  .maquina-de-escreve
- {
+.main-banner .maquina-de-escreve-container .maquina-de-escreve {
     color: #fff;
     text-align: center;
     font-weight: bold;
-    text-shadow: #000 2px 2px 3px ;
+    text-shadow: #000 2px 2px 3px;
     margin: auto;
-    
 }
-
-
 
 .maquina-de-escreve {
     overflow: hidden;
     white-space: nowrap;
     animation: maquina-de-escreve 6s steps(940) infinite;
-
 }
-
-
-
 
 .maquina-de-escreve-container {
     width: 50%;
     padding: 20px;
-   
 }
 
-.main-banner .maquina-de-escreve-container  p  {
+.main-banner .maquina-de-escreve-container p {
     font-size: 20px;
     color: #fff;
     text-align: center;
     font-weight: bold;
-    text-shadow: #000 2px 2px 3px ;
+    text-shadow: #000 2px 2px 3px;
 }
-
 
 .container-banner-logo {
     width: 50%;
@@ -95,7 +84,6 @@ body{
     width: 300px;
 }
 
-
 .btns004 {
     display: block;
     margin: 20px auto;
@@ -105,7 +93,6 @@ body{
     0% {
         width: 0;
     }
-
     100% {
         width: 100%;
     }
@@ -114,37 +101,29 @@ body{
 .main-banner h1 {
     font-size: 54px;
 }
+
 .main-banner .maquina-de-escreve-container p {
     margin-top: 20px;
     font-size: 20px;
 }
 
+
 /* section-componetes */
-
-
-
-
 
 @media screen and (max-width: 650px) {
     .main-banner {
         flex-direction: column;
         align-items: normal;
     }
-
     .maquina-de-escreve-container {
         width: 100%;
         text-align: center;
     }
-
-
- 
     .main-banner .maquina-de-escreve-container p {
         font-size: 15px;
         margin: 40px auto;
     }
-
     .container-banner-logo {
         width: 100%;
     }
-    
 }
