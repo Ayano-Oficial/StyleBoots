@@ -20,11 +20,9 @@ body {
     animation: gradiendanimado 10s ease infinite;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
     background-size: 300% 300%;
-}
-
-.container-index {
     height: 100vh;
 }
+
 
 .main-banner {
     padding: 10rem 0;
@@ -127,3 +125,4 @@ body {
         width: 100%;
     }
 }
+
