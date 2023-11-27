@@ -23,6 +23,9 @@ body {
     height: 100vh;
 }
 
+.container-index {
+    height: 100vh;
+}
 
 .main-banner {
     padding: 10rem 0;

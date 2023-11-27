@@ -135,7 +135,9 @@
 
 .Containes-codigos {
     width: 90%;
-    background: black;
+    background-image: url('../assets/imagens/edito.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     border-radius: 10px;
     overflow: auto;
