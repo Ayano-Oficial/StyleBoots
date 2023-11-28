@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*Versão do StyleBoots 1.1.4*/
 :root {--styleb-bg-color: #1a202c;--styleb-txt-color: #cbd5e0;--styleb-accent-color: #63b3ed;}/*font-family: 'Inter', sans-serif;font-family: 'Quicksand', sans-serif;*/
-*{margin: 0;padding: 0px;box-sizing:border-box;font-family:'Quicksand', sans-serif;} ::-webkit-scrollbar{width:5px;}
+*{margin: 0;padding: 0px;box-sizing:border-box;font-family: 'Inter', sans-serif;} ::-webkit-scrollbar{width:5px;}
 /* Navbar mnu001*/.mnu001-container{width:100%;height:80px;background-color:#232a31;padding:0 2rem;}.mnu001{position:relative;}.mnu001-logo{width:50px;height:50px;margin-top:15px;border-radius:50%;}.mnu001-items{position:absolute;right:0;height:80px;line-height:80px;margin:0;display:inline-block;}.mnu001-items li{display:inline-block;text-transform:uppercase;margin-left:25px;}.mnu001-items a{color:white;text-decoration:none;transition:0.5s;}.mnu001-items a:hover{color:#ccc;}
 @media (max-width: 670px) {
     .mnu001-container{width: 100%;height: auto;background-color: #232a31;padding: 0 2rem;display: flex;justify-content: center;padding-bottom: 20px;align-items: center;}.mnu001 {position: initial;padding-top: 10px;}.mnu001-logo {display: block;width: 50px;height: 50px;margin-top: 15px;margin: auto;}.mnu001-items{position: initial;right: 0;height: auto;line-height: 40px;margin: 0;display: inline-block;}

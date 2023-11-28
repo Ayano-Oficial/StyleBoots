@@ -1,131 +1,66 @@
 @import url('navBar.css');
-h1,
-h2,
-h3 {
-    color: #333;
+
+html {
+    height: 100%;
+    min-height: 100%;
 }
-
-p {
-    color: #70747a;
-}
-
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-
-/* main banner */
 
 body {
-    animation: gradiendanimado 10s ease infinite;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
-    background-size: 300% 300%;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-.container-index {
-    height: 100vh;
+footer {
+    margin-top: auto;
 }
 
-.main-banner {
-    padding: 10rem 0;
+
+.container-mae {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    height: calc(100vh - 130px);
+    gap: 50px;
+    background: rgb(126,10,255);
+background: linear-gradient(90deg, rgba(126,10,255,1) 0%, rgba(198,18,221,1) 57%, rgba(186,109,251,1) 100%);
 }
 
-@keyframes gradiendanimado {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
-.main-banner .maquina-de-escreve-container .maquina-de-escreve {
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: #000 2px 2px 3px;
-    margin: auto;
-}
-
-.maquina-de-escreve {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: maquina-de-escreve 6s steps(940) infinite;
-}
-
-.maquina-de-escreve-container {
+.container-texto {
     width: 50%;
-    padding: 20px;
+    color: white;
 }
 
-.main-banner .maquina-de-escreve-container p {
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    text-shadow: #000 2px 2px 3px;
+
+.imagem-logo {
+  width: 300px;
+  border-radius: 30px;
 }
 
-.container-banner-logo {
-    width: 50%;
-}
 
-.container-banner-logo img {
-    display: block;
-    margin: auto;
-    border-radius: 40px;
-    width: 300px;
-}
+@media screen and (max-width: 600px) {
 
-.btns004 {
-    display: block;
-    margin: 20px auto;
-}
-
-@keyframes maquina-de-escreve {
-    0% {
-        width: 0;
+    footer {
+        margin-top: initial;
     }
-    100% {
-        width: 100%;
-    }
-}
-
-.main-banner h1 {
-    font-size: 54px;
-}
-
-.main-banner .maquina-de-escreve-container p {
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-
-/* section-componetes */
-
-@media screen and (max-width: 650px) {
-    .main-banner {
+    .container-mae {
         flex-direction: column;
-        align-items: normal;
+        height: initial;
+        padding: 10px;
     }
-    .maquina-de-escreve-container {
+
+    .container-texto {
         width: 100%;
+    }
+
+    .container-texto .titulo {
         text-align: center;
+        margin-top: 10px;
     }
-    .main-banner .maquina-de-escreve-container p {
-        font-size: 15px;
-        margin: 40px auto;
-    }
-    .container-banner-logo {
-        width: 100%;
+
+    .container-texto .paragrafo {
+        text-align: center;
+        font-size: 17px;
     }
 }
-

@@ -80,7 +80,7 @@
         width: 100%;
         top: 70px;
         right: 0;
-        background-color: rgba(47, 64, 82, 0.472);
+        background-color: rgba(10, 74, 143, 0.781);
         transform: .6s;
         height: calc(100vh - 70px);
         z-index: 10000;
